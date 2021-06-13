@@ -9,7 +9,7 @@ from io import BytesIO
 import base64
 img_data = None
 
-path = os.path.join('./static','img1.jpg')
+path = os.path.join('./static','picture.jpg')
 
 with open(path, 'rb') as fh:
  img_data = fh.read()
